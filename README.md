@@ -1,7 +1,7 @@
-# HexAlpha
-This Light weight library provides transparency and opacity to Hexadecimal Color values dynamically, written in pure javascript.
+<h2 align="center"> <img src="https://github.com/vivekverma007/HexAlpha/blob/master/preview/app_icon_title.png" width="340" /> </h2>
+<p align="center">
+	This Light weight library provides transparency and opacity to Hexadecimal Color values dynamically, written in pure javascript.</p>
 
-<h2 align="center"> <img src="https://github.com/vivekverma007/ios-13-Calculator/blob/master/preview/app_icon_title.png" width="340" /> </h2>
 
 <p align="center">
 	
@@ -47,7 +47,6 @@ This Light weight library provides transparency and opacity to Hexadecimal Color
 ​
 HexAlphaTo('--App_Color','0.5','--Alpha_Color');
 ​
-​
 ```
 ---
 
@@ -61,7 +60,6 @@ HexAlphaTo('--App_Color','0.5','--Alpha_Color');
 ​
 ​
 HexAlphaTo('#018574','0.7','--Alpha_Color2');
-​
 ​
 ```
 ---
@@ -78,7 +76,6 @@ HexAlphaTo('#018574','0.7','--Alpha_Color2');
 let alphaColor = HexAlpha('--App_Color4','0.4');
 document.getElementById("Img4Alpha").style.background=alphaColor;
 ​
-​
 ```
 ---
 
@@ -93,6 +90,5 @@ document.getElementById("Img4Alpha").style.background=alphaColor;
 ​
 let alphaColor5 = HexAlpha('#C30052','0.5');
 document.getElementById("Img5Alpha").style.background=alphaColor5;
-​
 ​
 ```
