@@ -1,0 +1,121 @@
+:root {
+    --App_Color: #2D7D9A;
+    --Alpha_Color;
+    
+    --App_Color2: #018574;
+    --Alpha_Color2;
+    
+    --App_Color4: #F7630C;
+    --Alpha_Color4;
+}
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h2{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5px;
+}
+span.arrow{
+    font-size: 40px;
+    line-height: 5;
+    color: #444;
+    height: 40px;
+}
+.square{
+    width: 120px;
+    height: 120px;
+    margin: 15px 50px 25px 50px;
+    }
+.square.one{
+    background: var(--App_Color);
+}
+.square.alpha.one{
+    background: var(--Alpha_Color);
+}
+.square.two{
+    background: var(--App_Color2);
+}
+.square.alpha.two{
+    background: var(--Alpha_Color2);
+}
+.square.four{
+    background: var(--App_Color4);
+}
+.square.alpha.four{
+    background: var(--Alpha_Color4);
+}
+.square.five{
+    background: #C30052;
+}
+span{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+.inner-content{
+    justify-content: center;
+    text-align: center;
+}
+
+/* Styles for Code*/
+.code{
+    width: 600px;
+    height: 120px;
+    margin-top: 40px;
+}
+
+/* Styles for Link */
+
+.module_link{
+    font-weight: 600;
+    color: #444;
+    text-decoration: none;
+}
+.module_href{
+    color: #16ab9c;
+    text-decoration: none;
+}
+.module_link-before{
+    content: url(icons/app_git_icon.svg);
+    width: 40px;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.module_content{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.hr{
+    width: 520px;
+    height: 1px;
+    background: #ddd;
+    justify-content: center;
+    margin: 20px auto;
+    }
+
+/* Style for Coding Preview */
+
+.language-js{
+    font-size: 15px;
+    margin: 0 !important;
+    padding: 0 !important;
+        }
+
+pre span{
+    font-size: 15px;
+}
+code[class*=language-], pre[class*=language-] {
+    white-space: pre-line !important;
+    padding: 0px 0px 0px 25px !important;
+}
