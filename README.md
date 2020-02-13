@@ -92,6 +92,89 @@ document.getElementById("Img5Alpha").style.background=alphaColor5;
 ```
 
 ​
+## How to start
+
+#### Install it
+
+Include `library/HexAlpha.js` in your target html file.
+
+```html
+<script src='https://github.com/vivekverma007/HexAlpha/library/HexAlpha.js'></script>
+```
+​
+## Documentation
+
+| Function                       | Results                    | Arguments                              | 
+| :----------------------------- | :------------------------- | :------------------------------------- |
+| 1. HexAlphaTo('Color1','Alpha','Color2'); |  Takes `Color1` apply `Alpha` and assign to `Color2` | 3 |
+| 2. HexAlpha('Color2','Alpha'); |  Returns a `Hex Color` from `Color2` with an `Alpha` | 2 | 
+
+---
+
+### About Function HexAlphaTo() -
+
+
+| HexAlphaTo(  `'Color1'`   ,   `'Alpha'`   ,   `'Color2'`  );|  
+| :---------------------------------------------------------- |
+
+#### 1. `Color1` -
+
+
+
+| 'Color1'                        | Type                    | Example                                 | 
+| :------------------------------ | :---------------------- | :-------------------------------------- |
+| :root { --Color; } |  Property variable var() | HexAlphaTo(`'--Color'`,'0.5','--Alpha_Color'); |
+| #16ab9c |  Hexadecimal Color | HexAlphaTo(`'#16ab9c'`,'0.5','--Alpha_Color'); |
+
+
+#### 2. `Alpha` Transparency actor -
+
+| 'Alpha'                        | Opacity | 
+| :----------------------------- | :------ |
+| 1 |  100% |
+| 0.9 |  90% |
+| 0.8 |  80% |
+| .. |  ..% |
+| 0.1 |  10% |
+| 0 |  0% |
+
+#### 3. `Color2` -
+
+| 'Color2'                        | Type                    | Example                          | 
+| :------------------------------ | :---------------------- | :------------------------------- |
+| :root { --A_Color; } |  Property variable var() | HexAlphaTo('--Color','0.5',`'--A_Color'`); |
+
+
+---
+
+### About Function HexAlpha() -
+
+
+| HexAlpha(  `'Color1'`   ,   `'Alpha'`  );|  
+| :--------------------------------------- |
+
+
+#### 1. `Color1` -
+
+| 'Color1'                        | Type                    | Example          | 
+| :------------------------------ | :---------------------- | :--------------- |
+| :root { --Color; } |  Property variable var() | HexAlpha(`'--Color'`,'0.5'); |
+| #16ab9c |  Hexadecimal Color | HexAlphaTo(`'#16ab9c'`,'0.5'); |
+
+
+#### 2. `Alpha` Transparency actor -
+
+| 'Alpha'                        | Opacity | 
+| :----------------------------- | :------ |
+| 1 |  100% |
+| 0.9 |  90% |
+| 0.8 |  80% |
+| .. |  ..% |
+| 0.1 |  10% |
+| 0 |  0% |
+
+---
+
 ### Browser Compatibility
 ![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png) | ![Edge](https://raw.github.com/alrra/browser-logos/master/src/edge/edge_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/src/safari/safari_48x48.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_48x48.png)
 --- | --- | --- | --- | --- |
