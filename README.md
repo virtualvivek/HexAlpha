@@ -11,11 +11,11 @@
   </a>
 
  <a href="https://github.com/vivekverma007/HexAlpha">
-    <img src="https://img.shields.io/github/repo-size/vivekverma007/HexAlpha.svg?color=orange"
-      alt="Repo. Size" />
+    <img src="https://img.shields.io/github/size/vivekverma007/HexAlpha/library/HexAlpha.js?color=%2316ab9c&label=Library%20Size"
+      alt="Library Size" />
   </a>
   
- <a href="https://github.com/vivekverma007/ios-13-Calculators/blob/master/LICENSE">
+ <a href="https://github.com/vivekverma007/HexAlpha/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/vivekverma007/HexAlpha.svg?color=blue"
       alt="License: Apache" />
   </a>
