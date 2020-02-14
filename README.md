@@ -106,18 +106,18 @@ Include `library/HexAlpha.js` in your target html file.
 
 | Function                       | Results                    | Arguments                              | 
 | :----------------------------- | :------------------------- | :------------------------------------- |
-| 1. HexAlphaTo('Color1','Alpha','Color2'); |  Takes `Color1` apply `Alpha` and assign to `Color2` | 3 |
-| 2. HexAlpha('Color2','Alpha'); |  Returns a `Hex Color` from `Color2` with an `Alpha` | 2 | 
+| A. HexAlphaTo('Color1','Alpha','Color2'); |  Takes `Color1` apply `Alpha` and assign to `Color2` | 3 |
+| B. HexAlpha('Color2','Alpha'); |  Returns a `Hex Color` from `Color2` with an `Alpha` | 2 | 
 
 ---
 
-### About Function HexAlphaTo() -
+## A. about HexAlphaTo() -
 
 
 | HexAlphaTo(  `'Color1'`   ,   `'Alpha'`   ,   `'Color2'`  );|  
 | :---------------------------------------------------------- |
 
-#### 1. `Color1` -
+#### A.1- `Color1` -
 
 
 
@@ -127,7 +127,7 @@ Include `library/HexAlpha.js` in your target html file.
 | #16ab9c |  Hexadecimal Color | HexAlphaTo(`'#16ab9c'`,'0.5','--Alpha_Color'); |
 
 
-#### 2. `Alpha` Transparency actor -
+#### A.2- `Alpha` (transparency factor) -
 
 | 'Alpha'                        | Opacity | 
 | :----------------------------- | :------ |
@@ -138,7 +138,7 @@ Include `library/HexAlpha.js` in your target html file.
 | 0.1 |  10% |
 | 0 |  0% |
 
-#### 3. `Color2` -
+#### A.3- `Color2` -
 
 | 'Color2'                        | Type                    | Example                          | 
 | :------------------------------ | :---------------------- | :------------------------------- |
@@ -147,14 +147,14 @@ Include `library/HexAlpha.js` in your target html file.
 
 ---
 
-### About Function HexAlpha() -
+### B. about HexAlpha() -
 
 
 | HexAlpha(  `'Color1'`   ,   `'Alpha'`  );|  
 | :--------------------------------------- |
 
 
-#### 1. `Color1` -
+#### B.1- `Color1` -
 
 | 'Color1'                        | Type                    | Example          | 
 | :------------------------------ | :---------------------- | :--------------- |
@@ -162,7 +162,7 @@ Include `library/HexAlpha.js` in your target html file.
 | #16ab9c |  Hexadecimal Color | HexAlphaTo(`'#16ab9c'`,'0.5'); |
 
 
-#### 2. `Alpha` Transparency actor -
+#### B.2- `Alpha` (transparency factor) -
 
 | 'Alpha'                        | Opacity | 
 | :----------------------------- | :------ |
