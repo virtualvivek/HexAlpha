@@ -10,7 +10,7 @@
       alt="Web" />
   </a>
 
- <a href="https://github.com/vivekverma007/HexAlpha">
+ <a href="https://github.com/vivekverma007/HexAlpha/blob/master/library/HexAlpha.js">
     <img src="https://img.shields.io/github/size/vivekverma007/HexAlpha/library/HexAlpha.js?color=%2316ab9c&label=Library%20Size"
       alt="Library Size" />
   </a>
