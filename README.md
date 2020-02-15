@@ -147,7 +147,7 @@ Include `library/HexAlpha.js` in your target html file.
 
 ---
 
-### B. about HexAlpha() -
+## B. about HexAlpha() -
 
 
 | HexAlpha(  `'Color1'`   ,   `'Alpha'`  );|  
