@@ -124,7 +124,7 @@ Include `library/HexAlpha.js` in your target html file.
 | 'Color1'                        | Type                    | Example                                 | 
 | :------------------------------ | :---------------------- | :-------------------------------------- |
 | :root { --Color; } |  Property variable var() | HexAlphaTo(`'--Color'`,'0.5','--Alpha_Color'); |
-| #16ab9c |  Hexadecimal Color | HexAlphaTo(`'#16ab9c'`,'0.5','--Alpha_Color'); |
+| #16ab9c |  Hexadecimal Color | HexAlphaTo(`'#16ab9c'`,'0.7','--Alpha_Color'); |
 
 
 #### A.2- `Alpha` (transparency factor) -
@@ -150,16 +150,16 @@ Include `library/HexAlpha.js` in your target html file.
 ## B. about HexAlpha() -
 
 
-| HexAlpha(  `'Color1'`   ,   `'Alpha'`  );|  
+| HexAlpha(  `'Color'`   ,   `'Alpha'`  );|  
 | :--------------------------------------- |
 
 
-#### B.1- `Color1` -
+#### B.1- `Color` -
 
-| 'Color1'                        | Type                    | Example          | 
+| 'Color'                        | Type                    | Example          | 
 | :------------------------------ | :---------------------- | :--------------- |
 | :root { --Color; } |  Property variable var() | HexAlpha(`'--Color'`,'0.5'); |
-| #16ab9c |  Hexadecimal Color | HexAlphaTo(`'#16ab9c'`,'0.5'); |
+| #16ab9c |  Hexadecimal Color | HexAlphaTo(`'#16ab9c'`,'0.7'); |
 
 
 #### B.2- `Alpha` (transparency factor) -
