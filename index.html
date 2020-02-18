@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>HexAlpha Library</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css"/>
+</head>
+    
+	<body>
+    
+    <h2>HexAlpha Library</h2>
+    <div class="module_link-before"></div>
+    <div class="module_content">
+    <a href="https://github.com/vivekverma007/HexAlpha" target="_blank" class="module_link">Find this Repository on Github here</a><br>
+    <a href="https://github.com/vivekverma007/HexAlpha" target="_blank" class="module_href">github.com/vivekverma007/HexAlpha</a>
+    <div class="hr"></div>
+    </div>
+    
+    <div class="container">
+
+    <div class="inner-content">
+    <span>Original</span>
+    <div class="square one"></div>
+    </div>
+    <span class="arrow">➠</span>
+    <div class="inner-content">
+    <span>Alpha 0.5</span>
+    <div class="square alpha one"></div>
+    </div>
+    
+    <div class="code">
+           <pre><code class="language-js">
+                HexAlphaTo('--App_Color','0.5','--Alpha_Color');
+                
+            </code></pre>
+    </div>
+    
+    </div>
+    
+    <div class="container">
+	
+    <div class="inner-content">
+    <span>Original</span>
+    <div class="square two"></div>
+    </div>
+    <span class="arrow">➠</span>
+    <div class="inner-content">
+    <span>Alpha 0.7</span>
+    <div class="square alpha two"></div>
+    </div>
+        
+        <div class="code">
+           <pre><code class="language-js">
+            HexAlphaTo('#018574','0.7','--Alpha_Color2');
+            </code>
+            </pre>
+        </div>
+    
+    </div>
+    
+    <div class="container">
+	
+    <div class="inner-content">
+    <span>Original</span>
+    <div class="square four"></div>
+    </div>
+    <span class="arrow">➠</span>
+    <div class="inner-content">
+    <span>Alpha 0.4</span>
+    <div class="square alpha four" id="Img4Alpha"></div>
+    </div>
+        
+        <div class="code">
+          <pre><code class="language-js">
+            let alphaColor = HexAlpha('--App_Color4','0.4');
+            document.getElementById("Img4Alpha").style.background=alphaColor;
+            </code>
+            </pre>
+        </div>
+    
+    </div>
+    
+    <div class="container">
+	
+    <div class="inner-content">
+    <span>Original</span>
+    <div class="square five"></div>
+    </div>
+    <span class="arrow">➠</span>
+    <div class="inner-content">
+    <span>Alpha 0.5</span>
+    <div class="square alpha five" id="Img5Alpha"></div>
+    </div>
+        
+        <div class="code">
+          <pre><code class="language-js">
+            let alphaColor5 = HexAlpha('#C30052','0.5');
+            document.getElementById("Img5Alpha").style.background=alphaColor5;
+            </code>
+            </pre>
+        </div>
+    
+    </div>
+
+    <script src="library/HexAlpha.js"></script> 
+    <script src="js/HexAlphaConfig.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+    
+    </body>
+
+</html>
