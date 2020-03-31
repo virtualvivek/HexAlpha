@@ -31,7 +31,7 @@
 
 ## Usage
 
-1. From one `color variable to another` -
+1. From one `color variable to another` :
 
 <img align="left" src="https://github.com/vivekverma007/HexAlpha/blob/master/preview/app_preview_1.PNG" width="260" />
 
@@ -45,7 +45,7 @@ HexAlphaTo('--App_Color','0.5','--Alpha_Color');
 ```
 ---
 
-2. From a `Hexadecimal color to` a `color variable` -
+2. From a `Hexadecimal color to` a `color variable` :
 
 <img align="left" src="https://github.com/vivekverma007/HexAlpha/blob/master/preview/app_preview_2.PNG" width="260" />
 
@@ -59,7 +59,7 @@ HexAlphaTo('#018574','0.7','--Alpha_Color2');
 ```
 ---
 
-3. Assigning using `color variable` to a `js variable` -
+3. Assigning using `color variable` to a `js variable` :
 
 <img align="left" src="https://github.com/vivekverma007/HexAlpha/blob/master/preview/app_preview_3.PNG" width="260" />
 
@@ -73,7 +73,7 @@ document.getElementById("Img4Alpha").style.background=alphaColor;
 ```
 ---
 
-4. Assigning using `Hexadecimal color` to a `js variable` -
+4. Assigning using `Hexadecimal color` to a `js variable` :
 
 <img align="left" src="https://github.com/vivekverma007/HexAlpha/blob/master/preview/app_preview_4.PNG" width="260" />
 
@@ -106,7 +106,7 @@ Include `library/HexAlpha.js` in your target html file.
 
 ---
 
-## A. about HexAlphaTo() -
+## A. about HexAlphaTo() :
 
 
 | HexAlphaTo(  `'Color1'`   ,   `'Alpha'`   ,   `'Color2'`  );|  
@@ -142,7 +142,7 @@ Include `library/HexAlpha.js` in your target html file.
 
 ---
 
-## B. about HexAlpha() -
+## B. about HexAlpha() :
 
 
 | HexAlpha(  `'Color'`   ,   `'Alpha'`  );|  
