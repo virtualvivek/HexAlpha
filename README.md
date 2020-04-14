@@ -1,6 +1,6 @@
 <h2 align="center"> <img src="https://github.com/vivekverma007/HexAlpha/blob/master/preview/app_icon_title.png" width="340" /> </h2>
 <p align="center">
-	This Light weight library provides transparency and opacity to Hexadecimal Color values dynamically, written in pure javascript.</p>
+	A CSS library which provides opacity to Hexadecimal color values, it renders #hex color value to apply opacity at runtime</p>
 
 
 <p align="center">
