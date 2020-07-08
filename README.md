@@ -1,4 +1,4 @@
-<h2 align="center"> <img src="https://github.com/vivekverma007/HexAlpha/blob/master/preview/app_icon_title.png" width="340" /> </h2>
+<h2 align="center"> <img src="preview/app_icon_title.png" width="340" /> </h2>
 <p align="center">
 	A CSS library which provides opacity to Hexadecimal color values, it renders #hex color value to apply opacity at runtime</p>
 
@@ -10,17 +10,17 @@
       alt="Web" />
   </a>
 
- <a href="https://github.com/vivekverma007/HexAlpha/blob/master/library/HexAlpha.js">
-    <img src="https://img.shields.io/github/size/vivekverma007/HexAlpha/library/HexAlpha.js?color=%2316ab9c&label=Library%20Size"
+ <a href="https://github.com/virtualvivek/HexAlpha/blob/master/library/HexAlpha.js">
+    <img src="https://img.shields.io/github/size/virtualvivek/HexAlpha/library/HexAlpha.js?color=%2316ab9c&label=Library%20Size"
       alt="Library Size" />
   </a>
   
- <a href="https://github.com/vivekverma007/HexAlpha/blob/master/LICENSE">
+ <a href="https://github.com/virtualvivek/HexAlpha/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/vivekverma007/HexAlpha.svg?color=blue"
       alt="License: Apache" />
   </a>
   
- <a href="https://github.com/vivekverma007/HexAlpha">
+ <a href="https://github.com/virtualvivek/HexAlpha">
     <img src="https://img.shields.io/badge/Release-v1.0-darklime.svg?style=flat"
       alt="Release" />
   </a>
@@ -33,7 +33,7 @@
 
 1. From one `color variable to another` :
 
-<img align="left" src="https://github.com/vivekverma007/HexAlpha/blob/master/preview/app_preview_1.PNG" width="260" />
+<img align="left" src="preview/app_preview_1.PNG" width="260" />
 
 
 ```js
@@ -47,7 +47,7 @@ HexAlphaTo('--App_Color','0.5','--Alpha_Color');
 
 2. From a `Hexadecimal color to` a `color variable` :
 
-<img align="left" src="https://github.com/vivekverma007/HexAlpha/blob/master/preview/app_preview_2.PNG" width="260" />
+<img align="left" src="preview/app_preview_2.PNG" width="260" />
 
 
 ```js
@@ -61,7 +61,7 @@ HexAlphaTo('#018574','0.7','--Alpha_Color2');
 
 3. Assigning using `color variable` to a `js variable` :
 
-<img align="left" src="https://github.com/vivekverma007/HexAlpha/blob/master/preview/app_preview_3.PNG" width="260" />
+<img align="left" src="preview/app_preview_3.PNG" width="260" />
 
 
 ```js
@@ -75,7 +75,7 @@ document.getElementById("Img4Alpha").style.background=alphaColor;
 
 4. Assigning using `Hexadecimal color` to a `js variable` :
 
-<img align="left" src="https://github.com/vivekverma007/HexAlpha/blob/master/preview/app_preview_4.PNG" width="260" />
+<img align="left" src="preview/app_preview_4.PNG" width="260" />
 
 
 ```js
@@ -94,7 +94,7 @@ document.getElementById("Img5Alpha").style.background=alphaColor5;
 Include `library/HexAlpha.js` in your target html file.
 
 ```html
-<script src='https://github.com/vivekverma007/HexAlpha/library/HexAlpha.js'></script>
+<script src='https://github.com/virtualvivek/HexAlpha/library/HexAlpha.js'></script>
 ```
 ​
 ## Documentation
@@ -178,5 +178,5 @@ Latest ✔ | Latest ✔ | Latest ✔ | 9.1+ ✔ | Latest ✔ |
 
 ## License
 
-HexAlpha Library is licensed under `MIT license`. View [license](https://github.com/vivekverma007/HexAlpha/blob/master/LICENSE).<br>
+HexAlpha Library is licensed under `MIT license`. View [license](https://github.com/virtualvivek/HexAlpha/blob/master/LICENSE).<br>
 Copyright (c) 2020 `Vivek Verma .`
