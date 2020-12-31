@@ -179,4 +179,4 @@ Latest ✔ | Latest ✔ | Latest ✔ | 9.1+ ✔ | Latest ✔ |
 ## License
 
 HexAlpha Library is licensed under `MIT license`. View [license](https://github.com/virtualvivek/HexAlpha/blob/master/LICENSE).<br>
-Copyright (c) 2020 `Vivek Verma .`
+Copyright (c) 2020-21 `Vivek Verma .`
